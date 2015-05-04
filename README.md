@@ -1,5 +1,5 @@
 # ProjectKrang Vagrant Box
-This box contains all the commands and data for setting up Krang automatically. This includes installing, populating, and starting both Postgres and Elasticsearch.
+This box contains all the commands and data for an automated setup of Krang, [openFOIA's FOIA document storage and search engine](https://github.com/projectkrang/foia-hub). The automated setup includes provisions for installing, starting, migrating, and populating both Postgres and Elasticsearch.
 
 # Getting Started
 
@@ -16,7 +16,7 @@ Then, ensure you have the appropriate Vagrant Box installed:
 $ vagrant box add ubuntu/trusty32
 ```
 
-Make sure that this repo is placed in the directory above the foia-hub repo. The directory structure should look like this.
+Make sure that this repo is cloned in the directory above the foia-hub repo. The directory structure should look like this.
 ```
 README.md
 Vagrantfile
