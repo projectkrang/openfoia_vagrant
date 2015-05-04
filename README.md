@@ -1,3 +1,6 @@
+# ProjectKrang Vagrant Box
+This box contains all the commands and data for setting up Krang automatically. This includes installing, populating, and starting both Postgres and Elasticsearch.
+
 # Getting Started
 
 Make sure you have `vagrant` installed. For instance, on OS X with Homebrew:
